@@ -6,7 +6,7 @@ echo $code;
 <html>
 <body>
 
-<h2>Redirect to a Webpage</h2>
+<h2>444444444444Redirect to a Webpage</h2>
 <p>The replace() method replaces the current document with a new one:</p>
 
 <button onclick="myFunction()">Replace document</button>
