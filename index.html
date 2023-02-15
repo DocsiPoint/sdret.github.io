@@ -1,7 +1,6 @@
-<?php
-$code=$_GET["url"];
-echo $code;
-?>
+
+
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -9,12 +8,13 @@ echo $code;
 <h2>444444444444Redirect to a Webpage</h2>
 <p>The replace() method replaces the current document with a new one:</p>
 
-<button onclick="myFunction()">Replace document</button>
+
 
 <script>
-function myFunction() {
-  location.replace("https://www.w3schools.com")
-}
+  const urlParams = new URLSearchParams(window.location.search);
+	const idValue = urlParams.get('id');
+  window.location.href = "https://www.example.com?id="+idValue;
+
 </script>
 
 </body>
